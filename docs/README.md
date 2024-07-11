@@ -1,5 +1,8 @@
-# Template repo
+# SCJX Boards Platform IO
 
-This is a template repo with automated github pages documentation generation.
+This repo holds the platformio adapter for boards created by myself, SCJX.
 
-see [help](./help.md) for more.
+## Boards
+
+- Bigger Brain
+- Small General

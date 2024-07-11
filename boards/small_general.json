@@ -1,0 +1,41 @@
+{
+    "build": {
+        "core": "stm32",
+        "cpu": "cortex-m0",
+        "extra_flags": "-DSTM32F072xB",
+        "f_cpu": "48000000L",
+        "mcu": "stm32f072rbt6",
+        "product_line": "STM32F072xB",
+        "variant": "STM32F0xx/F072R8T_F072RB(H-I-T)"
+    },
+    "connectivity": [
+        "can"
+    ],
+    "debug": {
+        "default_tools": [
+            "stlink"
+        ],
+        "onboard_tools": [
+            "stlink"
+        ]
+    },
+    "frameworks": [
+        "arduino",
+        "cmsis",
+        "stm32cube"
+    ],
+    "name": "Small General F072RB",
+    "upload": {
+        "maximum_ram_size": 16384,
+        "maximum_size": 131072,
+        "protocol": "stlink",
+        "protocols": [
+            "cmsis-dap",
+            "jlink",
+            "stlink",
+            "mbed"
+        ]
+    },
+    "url": "https://github.com/Nanyang-Venture-Formula/Small-General",
+    "vendor": "Scott CJX"
+}

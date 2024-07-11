@@ -1,0 +1,41 @@
+{
+    "build": {
+        "core": "stm32",
+        "cpu": "cortex-m7",
+        "extra_flags": "-DSTM32H7xx -DSTM32H723xx",
+        "f_cpu": "550000000L",
+        "mcu": "stm32h723zgt6",
+        "product_line": "STM32H723xx"
+    },
+    "connectivity": [
+        "can",
+        "ethernet"
+    ],
+    "debug": {
+        "default_tools": [
+            "stlink"
+        ],
+        "onboard_tools": [
+            "stlink"
+        ]
+    },
+    "frameworks": [
+        "arduino",
+        "cmsis",
+        "stm32cube"
+    ],
+    "name": "Bigger Brain H723ZG",
+    "upload": {
+        "maximum_ram_size": 442368,
+        "maximum_size": 1048576,
+        "protocol": "stlink",
+        "protocols": [
+            "cmsis-dap",
+            "jlink",
+            "stlink",
+            "mbed"
+        ]
+    },
+    "url": "https://github.com/Nanyang-Venture-Formula/Bigger-Brain",
+    "vendor": "Scott CJX"
+}

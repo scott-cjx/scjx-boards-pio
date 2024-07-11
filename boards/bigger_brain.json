@@ -15,13 +15,11 @@
         "default_tools": [
             "stlink"
         ],
-        "onboard_tools": [
-            "stlink"
-        ]
+        "openocd_target": "stm32h7x",
+        "svd_path": "STM32H723.svd"
     },
     "frameworks": [
         "arduino",
-        "cmsis",
         "stm32cube"
     ],
     "name": "Bigger Brain H723ZG",
@@ -30,10 +28,7 @@
         "maximum_size": 1048576,
         "protocol": "stlink",
         "protocols": [
-            "cmsis-dap",
-            "jlink",
-            "stlink",
-            "mbed"
+            "stlink"
         ]
     },
     "url": "https://github.com/Nanyang-Venture-Formula/Bigger-Brain",

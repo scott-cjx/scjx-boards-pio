@@ -15,13 +15,12 @@
         "default_tools": [
             "stlink"
         ],
-        "onboard_tools": [
-            "stlink"
-        ]
+        "openocd_board": "st_nucleo_f0",
+        "openocd_target": "stm32f0x",
+        "svd_path": "STM32F072x.svd"
     },
     "frameworks": [
         "arduino",
-        "cmsis",
         "stm32cube"
     ],
     "name": "Small General F072RB",
@@ -30,10 +29,7 @@
         "maximum_size": 131072,
         "protocol": "stlink",
         "protocols": [
-            "cmsis-dap",
-            "jlink",
-            "stlink",
-            "mbed"
+            "stlink"
         ]
     },
     "url": "https://github.com/Nanyang-Venture-Formula/Small-General",
